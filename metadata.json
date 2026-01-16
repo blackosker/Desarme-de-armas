@@ -1,0 +1,5 @@
+{
+  "name": "Procedural Glock 17 Gen 5 Sim",
+  "description": "A high-fidelity, modular, procedural simulation of a Glock 17 Gen 5 using React Three Fiber. Features include accurate dimensional reconstruction, nDLC/Polymer PBR materials, mechanical firing cycle, and interactive exploded view.",
+  "requestFramePermissions": []
+}
