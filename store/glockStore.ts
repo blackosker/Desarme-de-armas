@@ -11,6 +11,8 @@ export const useGlockStore = create<GlockState>((set, get) => ({
   
   setRacked: (v) => set({ isRacked: v }),
   
+  toggleRack: () => set((state) => ({ isRacked: !state.isRacked })),
+  
   toggleMagazine: () => set((state) => ({ isMagazineInserted: !state.isMagazineInserted })),
   
   fire: () => {

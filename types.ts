@@ -7,6 +7,7 @@ export interface GlockState {
   triggerPulled: boolean;
   setExploded: (v: boolean) => void;
   setRacked: (v: boolean) => void;
+  toggleRack: () => void;
   toggleMagazine: () => void;
   fire: () => void;
 }
